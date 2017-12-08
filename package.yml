@@ -1,0 +1,16 @@
+name       : python-base58
+version    : 0.2.5
+release    : 1
+source     :
+    - https://github.com/keis/base58/archive/v0.2.5.tar.gz : 8606a164e91021685f25cb0d02552dd7dd953f2e3108527fa329dccd04b1e677
+license    : MIT
+component  : programming.python
+summary    : Base58 and Base58Check implementation compatible with what is used by the bitcoin network.
+description: |
+    Base58 and Base58Check implementation compatible with what is used by the bitcoin network.
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install

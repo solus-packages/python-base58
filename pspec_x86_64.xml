@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>python-base58</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Base58 and Base58Check implementation compatible with what is used by the bitcoin network.</Summary>
+        <Description xml:lang="en">Base58 and Base58Check implementation compatible with what is used by the bitcoin network.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-base58</Name>
+        <Summary xml:lang="en">Base58 and Base58Check implementation compatible with what is used by the bitcoin network.</Summary>
+        <Description xml:lang="en">Base58 and Base58Check implementation compatible with what is used by the bitcoin network.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58-0.2.5-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58-0.2.5-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58-0.2.5-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58-0.2.5-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58-0.2.5-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/base58.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>0.2.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
